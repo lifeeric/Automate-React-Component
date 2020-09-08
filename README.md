@@ -1,6 +1,28 @@
+
 # Automate creating your ReactJs components
 
 This script is built for personal use when I got frustrated creating components manually and was all the same work I had to do, I came across this sample script to boot my productivity creating ReactJs component through the shell script by one single command with the code snippet along with the scss file too.
+
+## cloning
+
+ssh
+```nginx
+$ git clone git@github.com:lifeeric/automate-React-Componet.git
+```
+or
+https
+```nginx
+$ git clone https://github.com/lifeeric/automate-React-Componet.git
+```
+Permission
+```nginx
+$ chmod +x arc
+```
+make it global
+```nginx
+$ suod cp arc /bin
+```
+
 
 ## Usage
 syntax
