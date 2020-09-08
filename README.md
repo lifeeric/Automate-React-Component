@@ -4,11 +4,11 @@ This script is built for personal use when I got frustrated creating components 
 
 ## Usage
 syntax
-```shell
+```nginx
 $ arc [COMPONENT NAME]
 ```
 ### example
-```bash
+```nginx
 $ arc Header
 $ tree
 .
@@ -20,7 +20,7 @@ $ tree
 ```
 
 ### example 2
-```bash
+```nginx
 $ arc Header/Navbar
 $ tree
 .
