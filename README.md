@@ -9,12 +9,12 @@ This script is built for personal use when I got frustrated creating components 
 
 ssh
 ```nginx
-$ git clone git@github.com:lifeeric/automate-React-Componet.git
+$ git clone git@github.com:lifeeric/automate-React-Component.git
 ```
 or
 https
 ```nginx
-$ git clone https://github.com/lifeeric/automate-React-Componet.git
+$ git clone https://github.com/lifeeric/automate-React-Component.git
 ```
 Permission
 ```nginx
