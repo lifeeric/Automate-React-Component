@@ -8,7 +8,7 @@ syntax
 $ arc [COMPONENT NAME]
 ```
 ### example
-```shell
+```bash
 $ arc Header
 $ tree
 .
@@ -20,7 +20,7 @@ $ tree
 ```
 
 ### example 2
-```shell
+```bash
 $ arc Header/Navbar
 $ tree
 .
