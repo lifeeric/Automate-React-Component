@@ -3,7 +3,6 @@
 
 This script is built for personal use when I got frustrated creating components manually and was all the same work I had to do, I came across this sample script to boot my productivity creating ReactJs component through the shell script by one single command with the code snippet along with the scss file too.
 
-<<<<<<< HEAD
 ![image](gif.gif)
 =======
 ## cloning
@@ -25,8 +24,6 @@ make it global
 ```nginx
 $ sudo cp arc /bin
 ```
-
->>>>>>> d683243a21e42e84a4c8afa4a80f92880f57ab2a
 
 ## Usage
 syntax
