@@ -51,12 +51,12 @@ import { useState } from "react"
 
 interface Props {}
 
-export const ${new_component_name}: React.FC<Props> = ({}) => {
+export const ${get_last_name}: React.FC<Props> = ({}) => {
     const [state, setState] = useState<boolean | undefined>(undefined)
 
-    return <h1> ${new_component_name} Component </h1>
-} " >"$make_new_dir/${new_component_name}.tsx"
+    return <h1> ${get_last_name} Component </h1>
+} " >"$make_new_dir/${get_last_name}.tsx"
 
     # generate log
-    echo -e "\033[32m[OK]\033[0m - $make_new_dir/${new_component_name} file created!"
+    echo -e "\033[32m[OK]\033[0m - $make_new_dir/${get_last_name} file created!"
 fi
