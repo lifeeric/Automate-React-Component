@@ -46,16 +46,16 @@ if [ ! -d $new_component_name ]; then
     touch "$make_new_dir/${get_last_name}.tsx"
     touch "$make_new_dir/${get_last_name}.scss"
     echo -e "
-        import * as React from "react"
-        import { useState } from "react"
+import * as React from "react"
+import { useState } from "react"
 
-        interface Props {}
+interface Props {}
 
-        export const ${new_component_name}: React.FC<Props> = ({}) => {
-        const [state, setState] = useState<boolean | undefined>(undefined)
+export const ${new_component_name}: React.FC<Props> = ({}) => {
+    const [state, setState] = useState<boolean | undefined>(undefined)
 
-        return <h1> ${new_component_name} Component </h1>
-        } " >"$make_new_dir/${new_component_name}.tsx"
+    return <h1> ${new_component_name} Component </h1>
+} " >"$make_new_dir/${new_component_name}.tsx"
 
     # generate log
     echo -e "\033[32m[OK]\033[0m - $make_new_dir/${new_component_name} file created!"
