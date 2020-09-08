@@ -20,7 +20,7 @@ $ chmod +x arc
 ```
 make it global
 ```nginx
-$ suod cp arc /bin
+$ sudo cp arc /bin
 ```
 
 
