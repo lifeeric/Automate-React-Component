@@ -46,8 +46,8 @@ if [ ! -d $new_component_name ]; then
     touch "$make_new_dir/${get_last_name}.tsx"
     touch "$make_new_dir/${get_last_name}.scss"
     echo -e "
-import * as React from "react"
-import { useState } from "react"
+import * as React from \"react\"
+import { useState } from \"react\"
 
 interface Props {}
 
