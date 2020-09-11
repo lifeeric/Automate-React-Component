@@ -49,6 +49,8 @@ if [ ! -d $new_component_name ]; then
 import * as React from \"react\"
 import { useState } from \"react\"
 
+import \"${get_last_name}.scss\"
+
 interface Props {}
 
 export const ${get_last_name}: React.FC<Props> = ({}) => {
