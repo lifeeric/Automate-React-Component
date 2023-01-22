@@ -1,7 +1,7 @@
 
 # Automate creating your ReactJs components
 
-This script is built for personal use when I got frustrated creating components manually and was all the same work I had to do, I came across this sample script to boot my productivity creating ReactJs component through the shell script by one single command with the code snippet along with the scss file too.
+When I got frustrated creating components manually and it was all the same work I had to do repeatedly, so I came across this  script to boot my productivity by creating ReactJs components through the shell script with one single command with the code snippet along with the SCSS file too.
 
 ![image](gif.gif)
 =======
